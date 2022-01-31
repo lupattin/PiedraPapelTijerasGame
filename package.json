@@ -1,0 +1,19 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "@types/node": "^16.11.11",
+    "parcel": "^2.0.0-rgitc.0"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /PiedraPapelTijerasGame",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
